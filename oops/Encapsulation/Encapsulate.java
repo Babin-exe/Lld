@@ -1,7 +1,7 @@
 package oops.Encapsulation;
 
 class BankAccount {
-    private double balance; 
+    private double balance;
 
     public void deposit(double amount) {
         if (amount > 0) {
@@ -17,6 +17,22 @@ class BankAccount {
 
     public double getBalance() {
         return balance;
+    }
+}
+
+class User {
+    private String email;
+
+    public void updateEmail(String newEmail) {
+        if (newEmail != null && newEmail.contains("@")) {
+            this.email = newEmail;
+        } else {
+            throw new IllegalArgumentException("Invalid email");
+        }
+    }
+
+    public String getEmail() {
+        return email;
     }
 }
 
