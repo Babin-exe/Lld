@@ -1,4 +1,4 @@
-
+package oops.Inheritance;
 interface Flyable {
 
     void fly();

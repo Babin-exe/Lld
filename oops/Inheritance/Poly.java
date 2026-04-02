@@ -1,4 +1,4 @@
-
+package oops.Inheritance;
 public class Poly {
 
 //This is static polymorphism or method overloading

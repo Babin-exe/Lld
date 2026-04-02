@@ -7,7 +7,8 @@ public class First {
 
         public Num(int num) {
             if (num < 0) {
-                System.out.println("Negative number is not allowed");;
+                System.out.println("Negative number is not allowed");
+                ;
                 return;
             }
             this.num = num;
@@ -20,5 +21,3 @@ public class First {
         Num n2 = new Num(-1);
     }
 }
-
-

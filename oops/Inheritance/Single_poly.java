@@ -1,4 +1,4 @@
-
+package oops.Inheritance;
 class Animal {
 
     void eat() {
