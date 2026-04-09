@@ -59,3 +59,10 @@ public class Aggregation {
 
     }
 }
+
+
+/* 
+The whole contains parts, but parts can exist without the whole
+Aggregation is a specialised association where one class acts as the container ("whole") and the other as the contained ("part").
+If the whole is destroyed, the parts survive. Modelled as a hollow diamond in UML.
+*/
